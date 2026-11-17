@@ -1,0 +1,7 @@
+name: meugestor
+product: Meu Gestor
+description: Aplicativo de Gestão Financeira Pessoal
+version: 1.0.0
+
+android:
+  icon: assets/icon.png
