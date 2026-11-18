@@ -1607,7 +1607,7 @@ async def main(page: ft.Page):
             ft.Divider(height=20, color="transparent"),
             ft.Text("Informações do Sistema", size=16, weight="bold", color="gray"),
             ft.ListTile(leading=ft.Icon(ft.Icons.CODE, color="blue"), title=ft.Text("Desenvolvedor"), subtitle=ft.Text("Thiago Oliveira")),
-            ft.ListTile(leading=ft.Icon(ft.Icons.SUPPORT_AGENT, color="green"), title=ft.Text("Suporte via WhatsApp"), subtitle=ft.Text("(79) 98149-1530")),
+            ft.ListTile(leading=ft.Icon(ft.Icons.SUPPORT_AGENT, color="green"), title=ft.Text("Suporte via WhatsApp"), subtitle=ft.Text("(00) 00000-0000")),
             ft.Container(height=20),
             ft.Container(content=ft.Text("SAIR DA CONTA", color="white", weight="bold"), bgcolor="red", padding=15, border_radius=8, alignment=ft.Alignment.CENTER, ink=True, on_click=sair_da_conta)
         ], scroll="auto", expand=True)
