@@ -72,7 +72,7 @@ class TelaConfigs(ctk.CTkFrame):
         ctk.CTkLabel(self.frame_info, text="Informações do Sistema", font=ctk.CTkFont(size=16, weight="bold"), text_color="gray").pack(anchor="w", padx=20, pady=(15, 10))
         
         ctk.CTkLabel(self.frame_info, text="💻 Desenvolvedor: Thiago Oliveira").pack(anchor="w", padx=20, pady=2)
-        ctk.CTkLabel(self.frame_info, text="📞 Suporte WhatsApp: (79) 98149-1530").pack(anchor="w", padx=20, pady=(2, 20))
+        ctk.CTkLabel(self.frame_info, text="📞 Suporte WhatsApp: (00) 00000-0000").pack(anchor="w", padx=20, pady=(2, 20))
 
         # ==========================================
         # 4. PAINEL DE AUDITORIA (SÓ PARA O DEV/ADMIN)
